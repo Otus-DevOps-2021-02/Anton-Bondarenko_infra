@@ -1,7 +1,7 @@
 # Anton-Bondarenko_infra
 Anton-Bondarenko Infra repository
 
-##Подключение к внутреннему хосту через внешний с агентом аутентификации и псевдотерминалом.
-ssh -i ~/.ssh/appuser -A appuser@178.154.215.147 ssh 10.128.0.24
-##Создание алиаса в профиле консоли someinternalhost
-alias someinternalhost='ssh -i ~/.ssh/appuser -A appuser@178.154.215.147 ssh 10.128.0.24'
+Cloud OVPN
+
+bastion_IP = 35.198.167.169
+someinternalhost_IP = 10.128.0.24
